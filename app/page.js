@@ -4,16 +4,17 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main>
-      <header className="flex justify-between items-center py-5 px-10 bg-white font-serif py-10">
+      <header className="flex justify-between items-center py-5 px-20 bg-white font-serif py-10">
       {/*Navigation BAR */}
       <nav className="flex space-x-4">
         <Link href="/" className="hover:underline">Home</Link>
         <Link href="/about" className="hover:underline">About</Link>
         <Link href="/gallery" className="hover:underline">Gallery</Link>
+        <Link href="/pricing" className="hover:underline">Pricing</Link>
         <Link href="/contact" className="hover:underline">Contact</Link>
       </nav>
 
-      <h1 className="text-3xl font-bold text-center flex-grow">Pyramid Granite</h1>
+      <h1 className="text-3xl font-bold text-center flex-grow py-10">Pyramid Granite</h1>
 
       {/*Social media icons */}
       <div className="flex space-x-4 pr-20">
@@ -39,7 +40,7 @@ export default function Home() {
       <div className="relative w-full max-h-[700px] overflow-hidden bg-black">
         <div className="absolute inset-0 bg-black bg-opacity-40"></div>
         <Image
-          src="/homepage.png"
+          src="/background/homepage.png"
           alt="Decorative image"
           layout="responsive"
           width="1920"
@@ -179,11 +180,11 @@ export default function Home() {
       </div>
 
       <footer className="bg-black text-white py-5 font-serif">
-        <div className="container mx-auto flex flex-wrap justify-between items-center">
+        <div className="container mx-auto flex flex-wrap justify-between items-center pr-20">
           <div className="flex items-center">
-            <h2 className="text-3xl font-bold pl-10">Pyramid Granite</h2>
+            <h2 className="text-3xl font-bold pl-20">Pyramid Granite</h2>
           </div>
-          <div className="text-center">
+          <div className="text-center pr-20">
             <h3 className="text-xl font-semibold mb-2">Contact Us</h3>
             <p>info@pyramidconstruction.com</p>
             <p>(587) 703-2423</p>
