@@ -14,7 +14,7 @@ export default function Home() {
         <Link href="/contact" className="hover:underline">Contact</Link>
       </nav>
 
-      <h1 className="text-3xl font-bold text-center flex-grow py-10">Pyramid Granite</h1>
+      <h1 className="text-3xl font-bold text-center flex-grow py-10 pr-20">Pyramid Granite</h1>
 
       {/*Social media icons */}
       <div className="flex space-x-4 pr-20">
